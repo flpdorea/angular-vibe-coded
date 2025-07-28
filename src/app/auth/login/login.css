@@ -9,6 +9,15 @@ mat-card {
   width: 400px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-button {
+  margin-top: 10px;
+}
+
 .link-text {
   margin-top: 10px;
   text-align: center;
