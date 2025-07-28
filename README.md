@@ -1,59 +1,40 @@
-# Gemininho
+# Gemininho: Vibe Coding with Gemini
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.1.
+This project, "Gemininho," is an experimental Angular frontend application developed primarily through a process of "vibe coding" with the Gemini AI. The intent is to explore and demonstrate the capabilities of AI-assisted development, leveraging Gemini's understanding of code, context files, and interaction with simulated "MCP servers" (Managed Code Production servers, representing a controlled environment for code generation and modification).
 
-## Development server
+It serves as a living example of how an AI agent can interpret natural language requests, understand project conventions, and implement features in a modern Angular environment, utilizing tools and adhering to best practices.
 
-To start a local development server, run:
+## Running the Application
 
-```bash
-ng serve
-```
+To get the application up and running on your local machine, follow these steps:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+1.  **Install Dependencies:** Ensure you have Node.js and Angular CLI installed. Then, install the project dependencies:
 
-## Code scaffolding
+    ```bash
+    npm install
+    ```
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+2.  **Start Development Server:** Launch the development server:
 
-```bash
-ng generate component component-name
-```
+    ```bash
+    ng serve
+    ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+    Once the server is running, open your web browser and navigate to `http://localhost:4200/`. The application will automatically reload as you make changes to the source files.
 
-```bash
-ng generate --help
-```
+## Running Tests
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+To execute the unit tests for this project, use the following command:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+This will run the tests using the Karma test runner.
 
 ## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For more detailed information on Angular development and the Angular CLI, you can refer to the official documentation:
+
+*   [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli)
+*   [Angular Documentation](https://angular.dev/)
